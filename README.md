@@ -86,14 +86,14 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 
 ## 🎯Fonctionnalités
 
-✅ Abstraction layer pour les intérations UI (click, sendkeys, ...)
-✅ Paramétrisation par les fichier TestNG XML et config.properties
-✅ Abstraction layer pour les jeux de données
-✅ Abstraction layer pour les textes statiques
-✅ Exécution sur devices physiques (et/ou Emulateurs/Simulateurs ) Android et iOS
-✅ Démarrage automatique programmé du serveur Appium
-✅ Cucumber-HTML-Reporter plugin
-✅ Gestion des logs  avec Log4J2 Logging framework
+✅ Abstraction layer pour les intérations UI (click, sendkeys, ...)<br/>
+✅ Paramétrisation par les fichier TestNG XML et config.properties<br/>
+✅ Abstraction layer pour les jeux de données<br/>
+✅ Abstraction layer pour les textes statiques<br/>
+✅ Exécution sur devices physiques (et/ou Emulateurs/Simulateurs ) Android et iOS<br/>
+✅ Démarrage automatique programmé du serveur Appium<br/>
+✅ Cucumber-HTML-Reporter plugin<br/>
+✅ Gestion des logs  avec Log4J2 Logging framework<br/>
 
 ## 🎯Environnement de développement
 
