@@ -1,5 +1,5 @@
-# Framework_Medium_Android
-Framework_Medium_Android est un framework d'automatisation mobile basé sur Appium, Cucumber et TestNG et qui s'exécute sur les devices et émulateurs Android.
+# Cucumber BDD Framework with Appium, TestNG and Java 11
+Framework-medium-mobile-android est un framework d'automatisation mobile basé sur Appium, Cucumber et TestNG et qui s'exécute sur les devices et émulateurs Android.
 
 Si vous souhaitez tester une application mobile de préférence sur Android.</br>
 🌟Si vous êtes `TESTEUR AUTOMATICIEN` et que vous voulez apprendre à automatiser des tests fonctionnels.</br>
@@ -19,7 +19,7 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 🏷️[Technologies et outils utilisés](#technologies-et-outils-utilisés)<br/>
 🏷️[Fonctionnalités](#fonctionnalités)<br/>
 🏷️[Environnement de développement](#environnement-de-développement)<br/>
-🏷️[Installation du framework](#installation-du-framework) <br/>
+🏷️[Installation du framework](#installation-du-framework)<br/>
 🏷️[Pré-requis](#prérequis)<br/>
 🏷️[Mise à jour du fichier testng.xml](#mise-à-jour-du-fichier-testngxml)<br/>
 🏷️[Exécution du framework](#exécution-du-framework)<br/>
@@ -109,7 +109,7 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 | maven                          | 3.8.6             | [Downloadable here](https://maven.apache.org/download.cgi)                                                                                                               | X           | X           |
 | Allure                         | current available | [Downloadable here](https://docs.qameta.io/allure/)                                                                                                                      | X           | X           |
 
-## 🎯 Installation du framework
+## 🎯Installation du framework
 
 #### Prérequis
 🟥 NB: POUR EXÉCUTER CE FRAMEWORK, VOUS DEVEZ AVOIR UNE BONNE CONNEXION INTERNET !
