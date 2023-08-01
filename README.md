@@ -23,6 +23,7 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 🏷️[Pré-requis](#prérequis)<br/>
 🏷️[Mise à jour du fichier testng.xml](#mise-à-jour-du-fichier-testngxml)<br/>
 🏷️[Exécution du framework](#exécution-du-framework)<br/>
+🏷️[Reporting](#Reporting)<br/>
 🏷️[Mise à jour et adaptation du Framework](#mise-à-jour-et-adaptation-du-framework)<br/>
 🏷️[Déboggage et Maintenance](#déboggage-et-maintenance)<br/>
 
@@ -174,6 +175,11 @@ Commandes a exécuter depuis un terminal:
   cd project_repository
   mvn clean test
 ```
+
+### 🎯Reporting
+Les différents rapports et artefacts resultants de l'exécution des tests seront disponibles dans le dossier:
+Rapport disponible :
+- **_Test-output_**/**_allure-report_**
 
 ## 🎯Mise à jour et adaptation du Framework
 
