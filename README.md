@@ -1,4 +1,4 @@
-# Cucumber BDD Framework with Appium, TestNG and Java 11
+# Cucumber BDD Framework with Appium, TestNG, Java 11 and Allure Report
 Framework-medium-mobile-android est un framework d'automatisation mobile basé sur Appium, Cucumber et TestNG et qui s'exécute sur les devices et émulateurs Android.
 
 Si vous souhaitez tester une application mobile de préférence sur Android.</br>
