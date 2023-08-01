@@ -1,4 +1,4 @@
-# Cucumber BDD Framework with Appium, TestNG, Java 11 and Allure Report
+# Cucumber BDD Framework with Appium, TestNG, Java 11 and Allure Report for Android
 Framework-medium-mobile-android est un framework d'automatisation mobile basé sur Appium, Cucumber et TestNG et qui s'exécute sur les devices et émulateurs Android.
 
 Si vous souhaitez tester une application mobile de préférence sur Android.</br>
@@ -12,7 +12,7 @@ que ce soit un device physique ou un émulateur.</br>
 🎁Il contient plusieurs modèles et bonnes pratiques comme le `Page Object Model`, le `page Factory` qui vous permettent d'avoir un framework assez `Robuste`, `Réutisable`, `Maintenable` et `Rapide`.</br>
 🎁Il offre également des `Logs` qui vous fournissent une traçabilité, des informations pertinentes
 sur l'exécution de vos tests et aident à déboguer le framework en cas d'échec des tests.</br>
-🎁Il contient aussi du reporting avec le rapport `allure` pour vous permettre d'avoir une visibilité de la couverture des tests effectués avec succès et des tests qui ont échoués.</br></br>
+🎁Il contient aussi du reporting avec `Allure report` pour vous permettre d'avoir une visibilité de la couverture des tests effectués avec succès et ceux qui ont échoués.</br></br>
 
 ### 🎯Sommaire:
 🏷️[Architecture et Présentation du framework](#architecture-et-présentation-du-framework)<br/>
@@ -23,7 +23,7 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 🏷️[Pré-requis](#prérequis)<br/>
 🏷️[Mise à jour du fichier testng.xml](#mise-à-jour-du-fichier-testngxml)<br/>
 🏷️[Exécution du framework](#exécution-du-framework)<br/>
-🏷️[Reporting](#Reporting)<br/>
+🏷️[Reporting](#reporting)<br/>
 🏷️[Mise à jour et adaptation du Framework](#mise-à-jour-et-adaptation-du-framework)<br/>
 🏷️[Déboggage et Maintenance](#déboggage-et-maintenance)<br/>
 
@@ -68,8 +68,18 @@ sur l'exécution de vos tests et aident à déboguer le framework en cas d'éche
 ┃ ┃ ┃ ┃ ┗ 📑Login.feature
 ┃ ┃ ┃ ┃ ┗ 📑Products.feature
 ┃ ┃ ┣ 📂Test-output
-┃ ┃ ┃ ┗ 📂allure-report
-┃ ┃ ┃ ┗ 📂allure-results
+┃ ┃ ┃ ┣ 📂YYYY-MM-DD
+┃ ┃ ┃ ┃ ┣ 📂Device_Name
+┃ ┃ ┃ ┃ ┃ ┣ 📂Logs
+┃ ┃ ┃ ┃ ┃ ┗ 📑Application.log
+┃ ┃ ┃ ┃ ┃ ┗ 📑Server.log
+┃ ┃ ┃ ┣ 📂allure-report
+┃ ┃ ┃ ┣ 📂allure-results
+┃ ┃ ┃ ┣ 📂reports
+┃ ┃ ┃ ┃ ┣ 📂cucumber
+┃ ┃ ┃ ┃ ┃ ┗ 📑report.html
+┃ ┃ ┃ ┃ ┃ ┗ 📑report.json
+┃ ┃ ┃ ┃ ┃ ┗ 📑report.xml
 ┣ 📑pom.xml
 ┣ 📑README.md
 ┣ 📑testng.xml
@@ -179,8 +189,10 @@ Commandes a exécuter depuis un terminal:
 ### 🎯Reporting
 Les différents rapports et artefacts resultants de l'exécution des tests seront disponibles dans le dossier:
 Rapport disponible :
-- **_Test-output_**/**_allure-report_**
-
+- **_Test-output_**
+  - **_reports_**/**_cucumber-report_**/**_cucumber.html**
+  - **_allure-report_**/**_index.html**
+    
 ## 🎯Mise à jour et adaptation du Framework
 
 ### 🪙Ajout d'une nouvelle application 
@@ -231,6 +243,6 @@ Examples:
   Vérifier que l'environnement de travail et l'IDE sont bien paramétrés pour **Java 11**
 
 ### 🔴Maintenance
-- Dépendances:
+- **Dépendances**:
   Régulièrement vérifier le fichier pom.xml pour s'assurer que les dependances sont a jour, si non les mettre a jour.
   Site de téléchargement des dépendances maven : https://mvnrepository.com
