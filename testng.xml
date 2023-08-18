@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests Suite">
+    <test name="Tests Android device">
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="Pixel_6"/>
+        <parameter name="virtualDevice" value="true"/>
+        <parameter name="systemPort" value="10001"/>
+        <parameter name="chromeDriverPort" value="11001"/>
+        <classes>
+            <class name="FrameworkMediumAndroid.runners.MytestngRunnerTest"/>
+        </classes>
+    </test>
+
+</suite>
