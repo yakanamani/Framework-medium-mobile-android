@@ -5,8 +5,8 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="deviceName" value="Pixel_6"/>
         <parameter name="virtualDevice" value="true"/>
-        <parameter name="systemPort" value="10001"/>
-        <parameter name="chromeDriverPort" value="11001"/>
+        <parameter name="systemPort" value="10007"/>
+        <parameter name="chromeDriverPort" value="11007"/>
         <classes>
             <class name="FrameworkMediumAndroid.runners.MytestngRunnerTest"/>
         </classes>
